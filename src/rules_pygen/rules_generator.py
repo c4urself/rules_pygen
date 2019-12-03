@@ -103,7 +103,7 @@ ARCHIVE_TMPL = """
         )
 """
 
-BLACKLIST = {"setuptools", "typing"}  # causes issues in python versions > 3.4
+BLACKLIST = {"typing"}  # causes issues in python versions > 3.4
 
 SUPPORTED_PYTHON3_VERSIONS = ["py3", "py2.py3", "py34", "py35", "py36", "py37", "py38"]
 CPYTHON_VERSIONS = ("cp34", "cp35", "cp36", "cp37", "cp38")
